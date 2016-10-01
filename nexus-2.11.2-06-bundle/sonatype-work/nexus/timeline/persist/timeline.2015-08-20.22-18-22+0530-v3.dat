@@ -1,0 +1,19 @@
+ú„Í‹àô)SYSTEMREPO_PSTATUS_CHANGES"$
+date2015-08-20 22:18:22.659+0530"
+actionREPO_PSTATUS_CHANGES"Œ
+message€The proxy mode of repository 'Apache Snapshots' (ID='apache-snapshots') was set to Allow. The previous state was Blocked (auto).æ‰Í‹àô)SYSTEMREPO_PSTATUS_CHANGES"$
+date2015-08-20 22:18:22.664+0530"
+actionREPO_PSTATUS_CHANGES"y
+messagenThe proxy mode of repository 'Central' (ID='central') was set to Allow. The previous state was Blocked (auto).î¾ú‹àô)SYSTEMREINDEX"$
+date2015-08-20 22:18:28.477+0530"
+actionREINDEX"š
+messageŽUpdating repository index "Public Repositories" from path null and below. : Process started on Thu Aug 20 22:18:28 IST 2015, not yet finished.}Ùü‹àô)SYSTEMBOOT"$
+date2015-08-20 22:18:28.760+0530"
+actionBOOT"0
+message%Started Nexus (version 2.11.2-06 OSS)’“¦Œàô)SYSTEMREINDEX"$
+date2015-08-20 22:18:34.067+0530"
+actionREINDEX"¾
+message²Updating repository index "Public Repositories" from path null and below. : Process started on Thu Aug 20 22:18:28 IST 2015, finished successfully on Thu Aug 20 22:18:34 IST 2015±Ô§Œàô)SYSTEMCONFIG"$
+date2015-08-20 22:18:34.260+0530"
+actionCONFIG"`
+messageUNexus server configuration was changed: [Scheduled Tasks], change was made by [*TASK]

@@ -1,0 +1,6 @@
+#Nexus discovery status
+#Sat Jan 30 22:48:26 IST 2016
+lastDiscoveryStrategy=prefix-file
+lastDiscoveryStatus=ERROR
+lastDiscoveryTimestamp=1454174306847
+lastDiscoveryMessage=repo1.maven.org

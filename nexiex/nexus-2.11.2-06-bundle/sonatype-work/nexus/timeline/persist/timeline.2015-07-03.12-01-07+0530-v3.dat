@@ -1,0 +1,22 @@
+™Ê–ò”å)SYSTEMCONFIG"H
+message=Registered repository group Public Repositories (ID=public) ."
+actionCONFIG"$
+date2015-07-03 12:01:07.850+0530}‰—ò”å)SYSTEMBOOT"0
+message%Started Nexus (version 2.11.2-06 OSS)"
+actionBOOT"$
+date2015-07-03 12:01:07.913+0530îüšò”å)SYSTEMREINDEX"š
+messageŽUpdating repository index "Public Repositories" from path null and below. : Process started on Fri Jul 03 12:01:08 IST 2015, not yet finished."
+actionREINDEX"$
+date2015-07-03 12:01:08.412+0530’îÈò”å)SYSTEMREINDEX"¾
+message²Updating repository index "Public Repositories" from path null and below. : Process started on Fri Jul 03 12:01:08 IST 2015, finished successfully on Fri Jul 03 12:01:14 IST 2015"
+actionREINDEX"$
+date2015-07-03 12:01:14.286+0530±‡Êò”å)SYSTEMCONFIG"`
+messageUNexus server configuration was changed: [Scheduled Tasks], change was made by [*TASK]"
+actionCONFIG"$
+date2015-07-03 12:01:14.439+0530 áëõ”å)AUTHC_AUTHZAUTHC"L
+messageASuccessfully authenticated user [admin] from IP address 127.0.0.1"
+actionAUTHC"$
+date2015-07-03 12:02:07.902+0530~üˆû”å)SYSTEMBOOT"1
+message&Stopping Nexus (version 2.11.2-06 OSS)"
+actionBOOT"$
+date2015-07-03 12:03:33.564+0530

@@ -1,0 +1,403 @@
+2016-01-30 22:33:34,799+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.events.EventSubscriberHost - Initialized
+2016-01-30 22:33:34,854+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - 
+-------------------------------------------------
+
+Initializing Sonatype Nexus 2.11.2-06
+
+-------------------------------------------------
+2016-01-30 22:33:34,855+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Activating locally installed plugins...
+2016-01-30 22:33:45,159+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:npm-proxy).
+2016-01-30 22:33:45,160+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:npm-hosted).
+2016-01-30 22:33:45,160+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.GroupRepository:npm-group).
+2016-01-30 22:33:59,452+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
+2016-01-30 22:34:10,574+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.kazuki.KazukiPlugin - Kazuki version: 0.1.8
+2016-01-30 22:34:19,074+0530 INFO  [jetty-main-1] *SYSTEM com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+2016-01-30 22:34:35,730+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:nuget-proxy).
+2016-01-30 22:34:35,731+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.ShadowRepository:nuget-shadow).
+2016-01-30 22:34:35,731+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.GroupRepository:nuget-group).
+2016-01-30 22:34:55,662+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:rubygems-proxy).
+2016-01-30 22:34:55,665+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:rubygems-hosted).
+2016-01-30 22:34:55,665+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.GroupRepository:rubygems-group).
+2016-01-30 22:35:23,784+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-npm-repository-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,785+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-lvo-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,785+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-site-repository-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,785+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-indexer-lucene-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,785+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-kazuki-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,785+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-crypto-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,785+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-archetype-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,786+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-healthcheck-oss-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,786+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-rutauth-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,786+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-atlas-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,786+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-plugin-console-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,787+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-rrb-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,788+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ldap-realm-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,788+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-webresources-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,789+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-nuget-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,789+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-restlet1x-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,790+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ruby-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,790+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-outreach-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,790+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-capabilities-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,812+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-logging-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,812+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-maven-bridge-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,812+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-content-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,813+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-timeline-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,813+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-h2-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,813+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-groovy-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,814+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-analytics-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,814+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ui-extjs3-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,814+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-wonderland-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,814+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-yum-repository-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,815+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-siesta-plugin:2.11.2-06" was successful.
+2016-01-30 22:35:23,815+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.events.EventSubscriberHost - Starting
+2016-01-30 22:35:24,034+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.timeline.DefaultNexusTimeline - Initializing Nexus Timeline...
+2016-01-30 22:35:24,038+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.timeline.DefaultNexusTimeline - Starting Nexus Timeline...
+2016-01-30 22:35:25,235+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.timeline.internal.DefaultTimeline - Started Timeline...
+2016-01-30 22:35:26,673+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Started (connectionPoolMaxSize 200, connectionPoolSize 20, connectionPoolIdleTime 30000 ms, connectionPoolTimeout 30000 ms, keepAliveMaxDuration 30000 ms)
+2016-01-30 22:35:31,323+0530 WARN  [jetty-main-1] *SYSTEM com.orientechnologies - No enough physical memory available for DISKCACHE: 1,948MB (heap=683MB). Set lower Maximum Heap (-Xmx setting on JVM) and restart OrientDB. Now running with DISKCACHE=256MB
+2016-01-30 22:35:37,736+0530 WARN  [jetty-main-1] *SYSTEM com.orientechnologies.orient.core.storage.impl.local.OSingleFileSegment - {db=npm} segment file 'database.ocf' was not closed correctly last time
+2016-01-30 22:35:37,736+0530 WARN  [jetty-main-1] *SYSTEM com.orientechnologies.orient.core.storage.impl.local.OSingleFileSegment - {db=npm} segment file 'database.ocf' was not closed correctly last time
+2016-01-30 22:35:43,155+0530 INFO  [jetty-main-1] *SYSTEM com.bolyuba.nexus.plugin.npm.service.internal.orient.OrientMetadataStore - Opened database: com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx@46596fc1
+2016-01-30 22:35:43,155+0530 INFO  [jetty-main-1] *SYSTEM com.bolyuba.nexus.plugin.npm.service.internal.orient.OrientMetadataStore - Opened database: com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx@46596fc1
+2016-01-30 22:35:43,208+0530 INFO  [jetty-main-1] *SYSTEM com.bolyuba.nexus.plugin.npm.service.internal.orient.OrientMetadataStore - Created pool (maxSize=100): com.orientechnologies.orient.core.db.OPartitionedDatabasePool@71fd1fd9
+2016-01-30 22:35:43,208+0530 INFO  [jetty-main-1] *SYSTEM com.bolyuba.nexus.plugin.npm.service.internal.orient.OrientMetadataStore - Created pool (maxSize=100): com.orientechnologies.orient.core.db.OPartitionedDatabasePool@71fd1fd9
+2016-01-30 22:35:43,209+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Loading Nexus Configuration...
+2016-01-30 22:35:43,209+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Loading Nexus Configuration...
+2016-01-30 22:35:43,254+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.source.StaticConfigurationSource - Configuration loaded successfully.
+2016-01-30 22:35:43,254+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.source.StaticConfigurationSource - Configuration loaded successfully.
+2016-01-30 22:35:43,297+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.source.FileConfigurationSource - Configuration loaded successfully.
+2016-01-30 22:35:43,297+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.source.FileConfigurationSource - Configuration loaded successfully.
+2016-01-30 22:35:43,678+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.source.FileConfigurationSource - Nexus configuration validated successfully.
+2016-01-30 22:35:43,678+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.source.FileConfigurationSource - Nexus configuration validated successfully.
+2016-01-30 22:35:43,811+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration...
+2016-01-30 22:35:43,811+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration...
+2016-01-30 22:35:43,843+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.security.configuration.source.FileSecurityConfigurationSource - Loading Security configuration from D:\Softwares\nexus-2.11.2-06-bundle\nexus-2.11.2-06\..\sonatype-work\nexus\conf\security-configuration.xml
+2016-01-30 22:35:43,843+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.security.configuration.source.FileSecurityConfigurationSource - Loading Security configuration from D:\Softwares\nexus-2.11.2-06-bundle\nexus-2.11.2-06\..\sonatype-work\nexus\conf\security-configuration.xml
+2016-01-30 22:35:44,014+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'XmlAuthenticatingRealm.authorizationCache' does not yet exist.  Creating now.
+2016-01-30 22:35:44,014+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'XmlAuthenticatingRealm.authorizationCache' does not yet exist.  Creating now.
+2016-01-30 22:35:44,025+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [XmlAuthenticatingRealm.authorizationCache]
+2016-01-30 22:35:44,025+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [XmlAuthenticatingRealm.authorizationCache]
+2016-01-30 22:35:44,027+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'XmlAuthorizingRealm.authorizationCache' does not yet exist.  Creating now.
+2016-01-30 22:35:44,027+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'XmlAuthorizingRealm.authorizationCache' does not yet exist.  Creating now.
+2016-01-30 22:35:44,028+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [XmlAuthorizingRealm.authorizationCache]
+2016-01-30 22:35:44,028+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [XmlAuthorizingRealm.authorizationCache]
+2016-01-30 22:35:44,081+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.attributes.DefaultLSAttributeStorage - Default FS AttributeStorage in place, using JacksonJSON marshaller.
+2016-01-30 22:35:44,081+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.attributes.DefaultLSAttributeStorage - Default FS AttributeStorage in place, using JacksonJSON marshaller.
+2016-01-30 22:35:47,043+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central" [id=central][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2016-01-30 22:35:47,043+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central" [id=central][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2016-01-30 22:35:47,580+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Apache Snapshots" [id=apache-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2016-01-30 22:35:47,580+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Apache Snapshots" [id=apache-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2016-01-30 22:35:47,623+0530 INFO  [proxy-3-thread-1] *SYSTEM org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing remote transport for proxy repository "Codehaus Snapshots" [id=codehaus-snapshots]...
+2016-01-30 22:35:47,623+0530 INFO  [proxy-3-thread-1] *SYSTEM org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing remote transport for proxy repository "Codehaus Snapshots" [id=codehaus-snapshots]...
+2016-01-30 22:35:47,641+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 5 minutes.
+2016-01-30 22:35:47,641+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 5 minutes.
+2016-01-30 22:35:48,042+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Codehaus Snapshots" [id=codehaus-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2016-01-30 22:35:48,042+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Codehaus Snapshots" [id=codehaus-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2016-01-30 22:35:48,276+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 40 seconds.
+2016-01-30 22:35:48,276+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 40 seconds.
+2016-01-30 22:35:48,551+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Releases" [id=releases][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:35:48,551+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Releases" [id=releases][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:35:48,978+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Snapshots" [id=snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:35:48,978+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Snapshots" [id=snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:35:49,289+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "3rd party" [id=thirdparty][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:35:49,289+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "3rd party" [id=thirdparty][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:35:49,364+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository]
+2016-01-30 22:35:49,364+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository]
+2016-01-30 22:35:49,737+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "myrel" [id=myrel][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:35:49,737+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "myrel" [id=myrel][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:35:50,045+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "myrels" [id=myrels][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:35:50,045+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "myrels" [id=myrels][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:35:50,223+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Public Repositories" [id=public][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.repository.GroupRepository]
+2016-01-30 22:35:50,223+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Public Repositories" [id=public][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.repository.GroupRepository]
+2016-01-30 22:35:50,223+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.scheduling.DefaultScheduler - Initializing Scheduler...
+2016-01-30 22:35:50,223+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.scheduling.DefaultScheduler - Initializing Scheduler...
+2016-01-30 22:35:50,224+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.scheduling.internal.DefaultTaskConfigManager - 0 task(s) to load.
+2016-01-30 22:35:50,224+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.scheduling.internal.DefaultTaskConfigManager - 0 task(s) to load.
+2016-01-30 22:35:50,225+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Nexus Work Directory : D:\Softwares\nexus-2.11.2-06-bundle\sonatype-work\nexus
+2016-01-30 22:35:50,225+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Nexus Work Directory : D:\Softwares\nexus-2.11.2-06-bundle\sonatype-work\nexus
+2016-01-30 22:35:50,226+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Started Sonatype Nexus 2.11.2-06
+2016-01-30 22:35:50,226+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Started Sonatype Nexus 2.11.2-06
+2016-01-30 22:35:51,172+0530 WARN  [ar-4-thread-3] *SYSTEM org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error on M2Repository(id=apache-snapshots): java.net.UnknownHostException: repository.apache.org
+2016-01-30 22:35:51,172+0530 WARN  [ar-4-thread-3] *SYSTEM org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error on M2Repository(id=apache-snapshots): java.net.UnknownHostException: repository.apache.org
+2016-01-30 22:35:53,227+0530 INFO  [jetty-main-1] *SYSTEM com.sonatype.nexus.plugins.nuget.odata.NugetODataGalleryMigrator - Starting Nuget DB migration.
+2016-01-30 22:35:53,227+0530 INFO  [jetty-main-1] *SYSTEM com.sonatype.nexus.plugins.nuget.odata.NugetODataGalleryMigrator - Starting Nuget DB migration.
+2016-01-30 22:35:53,235+0530 INFO  [jetty-main-1] *SYSTEM com.sonatype.nexus.plugins.nuget.odata.NugetODataGalleryMigrator - Completed Nuget DB migration.
+2016-01-30 22:35:53,235+0530 INFO  [jetty-main-1] *SYSTEM com.sonatype.nexus.plugins.nuget.odata.NugetODataGalleryMigrator - Completed Nuget DB migration.
+2016-01-30 22:35:53,264+0530 WARN  [ar-4-thread-2] *SYSTEM org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error on M2Repository(id=central): java.net.UnknownHostException: repo1.maven.org
+2016-01-30 22:35:53,264+0530 WARN  [ar-4-thread-2] *SYSTEM org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error on M2Repository(id=central): java.net.UnknownHostException: repo1.maven.org
+2016-01-30 22:35:53,553+0530 INFO  [ar-4-thread-2] *SYSTEM org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Unpublished prefix file of "Central" [id=central] (and is marked for noscrape)
+2016-01-30 22:35:53,553+0530 INFO  [ar-4-thread-2] *SYSTEM org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Unpublished prefix file of "Central" [id=central] (and is marked for noscrape)
+2016-01-30 22:35:53,692+0530 INFO  [ar-4-thread-1] *SYSTEM org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Unpublished prefix file of "Public Repositories" [id=public] (and is marked for noscrape)
+2016-01-30 22:35:53,692+0530 INFO  [ar-4-thread-1] *SYSTEM org.sonatype.nexus.proxy.maven.routing.internal.ManagerImpl - Unpublished prefix file of "Public Repositories" [id=public] (and is marked for noscrape)
+2016-01-30 22:35:53,976+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.webapp.WebappBootstrap - Initialized
+2016-01-30 22:35:53,976+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.webapp.WebappBootstrap - Initialized
+2016-01-30 22:35:54,534+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule - Resources:
+2016-01-30 22:35:54,534+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule - Resources:
+2016-01-30 22:35:54,535+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/analytics/events
+2016-01-30 22:35:54,535+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/analytics/events
+2016-01-30 22:35:54,536+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/analytics/settings
+2016-01-30 22:35:54,536+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/analytics/settings
+2016-01-30 22:35:54,536+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/security-diagnostic
+2016-01-30 22:35:54,536+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/security-diagnostic
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/support-zip
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/support-zip
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/system-information
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/system-information
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities/stores
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities/stores
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities/types
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities/types
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/gaDetails
+2016-01-30 22:35:54,537+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/gaDetails
+2016-01-30 22:35:54,538+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/gavDetails
+2016-01-30 22:35:54,538+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/gavDetails
+2016-01-30 22:35:54,538+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckEula
+2016-01-30 22:35:54,538+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckEula
+2016-01-30 22:35:54,538+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckInfo
+2016-01-30 22:35:54,538+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckInfo
+2016-01-30 22:35:54,538+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckStatus
+2016-01-30 22:35:54,538+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckStatus
+2016-01-30 22:35:55,315+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckSummary/{repositoryId}/{path:.*}
+2016-01-30 22:35:55,315+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckSummary/{repositoryId}/{path:.*}
+2016-01-30 22:35:55,320+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/logging/log
+2016-01-30 22:35:55,320+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/logging/log
+2016-01-30 22:35:55,321+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/logging/loggers
+2016-01-30 22:35:55,321+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/logging/loggers
+2016-01-30 22:35:55,321+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/authenticate
+2016-01-30 22:35:55,321+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/authenticate
+2016-01-30 22:35:55,322+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/download
+2016-01-30 22:35:55,322+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/download
+2016-01-30 22:35:55,332+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/settings
+2016-01-30 22:35:55,332+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/settings
+2016-01-30 22:35:55,334+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule - Components:
+2016-01-30 22:35:55,334+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule - Components:
+2016-01-30 22:35:55,336+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.capabilities.internal.rest.CapabilityNotFoundExceptionMapper
+2016-01-30 22:35:55,336+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.capabilities.internal.rest.CapabilityNotFoundExceptionMapper
+2016-01-30 22:35:55,338+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.AuthorizationExceptionMapper
+2016-01-30 22:35:55,338+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.AuthorizationExceptionMapper
+2016-01-30 22:35:55,343+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.InvalidConfigurationExceptionMapper
+2016-01-30 22:35:55,343+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.InvalidConfigurationExceptionMapper
+2016-01-30 22:35:55,365+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.NoSuchRepositoryExceptionMapper
+2016-01-30 22:35:55,365+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.NoSuchRepositoryExceptionMapper
+2016-01-30 22:35:55,365+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.jackson.JacksonProvider
+2016-01-30 22:35:55,365+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.jackson.JacksonProvider
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.BadRequestExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.BadRequestExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ConstraintViolationExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ConstraintViolationExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.InvalidObjectExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.InvalidObjectExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ObjectNotFoundExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ObjectNotFoundExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ThrowableExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ThrowableExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ValidationErrorsExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ValidationErrorsExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.WebApplicationExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.WebApplicationExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.WebApplicationMessageExceptionMapper
+2016-01-30 22:35:55,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.WebApplicationMessageExceptionMapper
+2016-01-30 22:35:57,249+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rest.NexusApplication_UriMatching - Strict URI matching: true
+2016-01-30 22:35:57,249+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rest.NexusApplication_UriMatching - Strict URI matching: true
+2016-01-30 22:35:57,507+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.ModelUtils - Loading model D:\Softwares\nexus-2.11.2-06-bundle\sonatype-work\nexus\conf\ldap.xml
+2016-01-30 22:35:57,507+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.ModelUtils - Loading model D:\Softwares\nexus-2.11.2-06-bundle\sonatype-work\nexus\conf\ldap.xml
+2016-01-30 22:35:57,605+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.ModelUtils - Loading model D:\Softwares\nexus-2.11.2-06-bundle\sonatype-work\nexus\conf\lvo-plugin.xml
+2016-01-30 22:35:57,605+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.ModelUtils - Loading model D:\Softwares\nexus-2.11.2-06-bundle\sonatype-work\nexus\conf\lvo-plugin.xml
+2016-01-30 22:36:00,438+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.webresources.internal.WebResourceServiceImpl - Discovered 1973 resources
+2016-01-30 22:36:00,438+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.webresources.internal.WebResourceServiceImpl - Discovered 1973 resources
+2016-01-30 22:36:00,441+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.webresources.internal.WebResourceServlet - Max-age: 30 days (2592000 seconds)
+2016-01-30 22:36:00,441+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.webresources.internal.WebResourceServlet - Max-age: 30 days (2592000 seconds)
+2016-01-30 22:36:00,645+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.InstrumentedSelectChannelConnector - Metrics enabled
+2016-01-30 22:36:00,645+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.InstrumentedSelectChannelConnector - Metrics enabled
+2016-01-30 22:36:00,881+0530 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.AbstractConnector - Started InstrumentedSelectChannelConnector@0.0.0.0:8081
+2016-01-30 22:36:00,881+0530 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.AbstractConnector - Started InstrumentedSelectChannelConnector@0.0.0.0:8081
+2016-01-30 22:36:00,882+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Running
+2016-01-30 22:36:00,882+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Running
+2016-01-30 22:36:00,894+0530 INFO  [WrapperListener_start_runner] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Started
+2016-01-30 22:36:00,894+0530 INFO  [WrapperListener_start_runner] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Started
+2016-01-30 22:36:28,278+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 1 minute 20 seconds.
+2016-01-30 22:36:28,278+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 1 minute 20 seconds.
+2016-01-30 22:37:48,279+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 2 minutes.
+2016-01-30 22:37:48,279+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 2 minutes.
+2016-01-30 22:39:48,280+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 3 minutes 20 seconds.
+2016-01-30 22:39:48,280+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 3 minutes 20 seconds.
+2016-01-30 22:41:32,107+0530 INFO  [Wrapper-Control-Event-Monitor] *SYSTEM org.sonatype.nexus.bootstrap.jsw.JswLauncher - Received control event: 200
+2016-01-30 22:41:32,107+0530 INFO  [Wrapper-Control-Event-Monitor] *SYSTEM org.sonatype.nexus.bootstrap.jsw.JswLauncher - Received control event: 200
+2016-01-30 22:41:33,107+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.bootstrap.jsw.JswLauncher - Stopping with code: 0
+2016-01-30 22:41:33,107+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.bootstrap.jsw.JswLauncher - Stopping with code: 0
+2016-01-30 22:41:33,107+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Stopping
+2016-01-30 22:41:33,107+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Stopping
+2016-01-30 22:41:33,107+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Stopping: org.eclipse.jetty.server.Server@66825104
+2016-01-30 22:41:33,107+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Stopping: org.eclipse.jetty.server.Server@66825104
+2016-01-30 22:41:33,107+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.eclipse.jetty.server.Server - Graceful shutdown InstrumentedSelectChannelConnector@0.0.0.0:8081
+2016-01-30 22:41:33,107+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.eclipse.jetty.server.Server - Graceful shutdown InstrumentedSelectChannelConnector@0.0.0.0:8081
+2016-01-30 22:41:33,117+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.eclipse.jetty.server.Server - Graceful shutdown o.e.j.w.WebAppContext{/nexus,file:/D:/Softwares/nexus-2.11.2-06-bundle/nexus-2.11.2-06/nexus/},D:\Softwares\nexus-2.11.2-06-bundle\nexus-2.11.2-06/nexus
+2016-01-30 22:41:33,117+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.eclipse.jetty.server.Server - Graceful shutdown o.e.j.w.WebAppContext{/nexus,file:/D:/Softwares/nexus-2.11.2-06-bundle/nexus-2.11.2-06/nexus/},D:\Softwares\nexus-2.11.2-06-bundle\nexus-2.11.2-06/nexus
+2016-01-30 22:41:34,137+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.webapp.WebappBootstrap - Destroying
+2016-01-30 22:41:34,137+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.webapp.WebappBootstrap - Destroying
+2016-01-30 22:41:34,162+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.scheduling.DefaultScheduler - Shutting down Scheduler...
+2016-01-30 22:41:34,162+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.scheduling.DefaultScheduler - Shutting down Scheduler...
+2016-01-30 22:41:34,172+0530 INFO  [WrapperListener_stop_runner] *SYSTEM com.bolyuba.nexus.plugin.npm.service.internal.orient.OrientMetadataStore - Closing pool: com.orientechnologies.orient.core.db.OPartitionedDatabasePool@71fd1fd9
+2016-01-30 22:41:34,172+0530 INFO  [WrapperListener_stop_runner] *SYSTEM com.bolyuba.nexus.plugin.npm.service.internal.orient.OrientMetadataStore - Closing pool: com.orientechnologies.orient.core.db.OPartitionedDatabasePool@71fd1fd9
+2016-01-30 22:41:34,172+0530 INFO  [WrapperListener_stop_runner] *SYSTEM com.orientechnologies.orient.core.Orient - - closing storage: npm...
+2016-01-30 22:41:34,172+0530 INFO  [WrapperListener_stop_runner] *SYSTEM com.orientechnologies.orient.core.Orient - - closing storage: npm...
+2016-01-30 22:41:36,072+0530 INFO  [WrapperListener_stop_runner] *SYSTEM com.orientechnologies.orient.core.Orient - OrientDB Engine shutdown complete
+2016-01-30 22:41:36,072+0530 INFO  [WrapperListener_stop_runner] *SYSTEM com.orientechnologies.orient.core.Orient - OrientDB Engine shutdown complete
+2016-01-30 22:41:36,249+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.timeline.DefaultNexusTimeline - Stopping Nexus Timeline...
+2016-01-30 22:41:36,249+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.timeline.DefaultNexusTimeline - Stopping Nexus Timeline...
+2016-01-30 22:41:36,254+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.timeline.internal.DefaultTimeline - Stopped Timeline...
+2016-01-30 22:41:36,254+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.timeline.internal.DefaultTimeline - Stopped Timeline...
+2016-01-30 22:41:36,594+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Stopped
+2016-01-30 22:41:36,594+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Stopped
+2016-01-30 22:41:36,691+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.index.DefaultIndexerManager - Shutting down Nexus IndexerManager
+2016-01-30 22:41:36,691+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.index.DefaultIndexerManager - Shutting down Nexus IndexerManager
+2016-01-30 22:41:36,716+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.events.EventSubscriberHost - Stopping
+2016-01-30 22:41:36,716+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.events.EventSubscriberHost - Stopping
+2016-01-30 22:41:36,732+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.NxApplication - Stopped Sonatype Nexus 2.11.2-06
+2016-01-30 22:41:36,732+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.NxApplication - Stopped Sonatype Nexus 2.11.2-06
+2016-01-30 22:41:36,783+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.webapp.WebappBootstrap - Destroyed
+2016-01-30 22:41:36,783+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.webapp.WebappBootstrap - Destroyed
+2016-01-30 22:41:36,783+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/nexus,file:/D:/Softwares/nexus-2.11.2-06-bundle/nexus-2.11.2-06/nexus/},D:\Softwares\nexus-2.11.2-06-bundle\nexus-2.11.2-06/nexus
+2016-01-30 22:41:36,783+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/nexus,file:/D:/Softwares/nexus-2.11.2-06-bundle/nexus-2.11.2-06/nexus/},D:\Softwares\nexus-2.11.2-06-bundle\nexus-2.11.2-06/nexus
+2016-01-30 22:41:36,840+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Stopped
+2016-01-30 22:41:36,840+0530 INFO  [WrapperListener_stop_runner] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Stopped
+2016-01-30 22:47:26,693+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.events.EventSubscriberHost - Initialized
+2016-01-30 22:47:26,698+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - 
+-------------------------------------------------
+
+Initializing Sonatype Nexus 2.11.2-06
+
+-------------------------------------------------
+2016-01-30 22:47:26,698+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Activating locally installed plugins...
+2016-01-30 22:47:30,551+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:npm-proxy).
+2016-01-30 22:47:30,552+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:npm-hosted).
+2016-01-30 22:47:30,561+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.GroupRepository:npm-group).
+2016-01-30 22:47:37,811+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
+2016-01-30 22:47:44,274+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.kazuki.KazukiPlugin - Kazuki version: 0.1.8
+2016-01-30 22:47:50,184+0530 INFO  [jetty-main-1] *SYSTEM com.sun.jersey.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+2016-01-30 22:48:00,399+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:nuget-proxy).
+2016-01-30 22:48:00,400+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.ShadowRepository:nuget-shadow).
+2016-01-30 22:48:00,400+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.GroupRepository:nuget-group).
+2016-01-30 22:48:02,366+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:rubygems-proxy).
+2016-01-30 22:48:02,368+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:rubygems-hosted).
+2016-01-30 22:48:02,373+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.GroupRepository:rubygems-group).
+2016-01-30 22:48:07,871+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-npm-repository-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,871+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-lvo-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,871+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-site-repository-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,871+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-indexer-lucene-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,871+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-kazuki-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,871+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-crypto-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,871+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-archetype-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,872+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-healthcheck-oss-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,872+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-rutauth-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,872+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-atlas-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,872+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-plugin-console-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,873+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-rrb-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,874+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ldap-realm-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,874+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-webresources-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,875+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-nuget-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,875+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-restlet1x-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,876+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ruby-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,876+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-outreach-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,876+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-capabilities-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:07,953+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-logging-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,021+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-maven-bridge-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,114+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-content-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,116+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-timeline-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,116+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-h2-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,116+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-groovy-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,116+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-analytics-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,117+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ui-extjs3-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,117+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-wonderland-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,118+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-yum-repository-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,119+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-siesta-plugin:2.11.2-06" was successful.
+2016-01-30 22:48:08,119+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.events.EventSubscriberHost - Starting
+2016-01-30 22:48:08,188+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.timeline.DefaultNexusTimeline - Initializing Nexus Timeline...
+2016-01-30 22:48:08,191+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.timeline.DefaultNexusTimeline - Starting Nexus Timeline...
+2016-01-30 22:48:08,749+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.timeline.internal.DefaultTimeline - Started Timeline...
+2016-01-30 22:48:09,068+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Started (connectionPoolMaxSize 200, connectionPoolSize 20, connectionPoolIdleTime 30000 ms, connectionPoolTimeout 30000 ms, keepAliveMaxDuration 30000 ms)
+2016-01-30 22:48:10,557+0530 WARN  [jetty-main-1] *SYSTEM com.orientechnologies - No enough physical memory available for DISKCACHE: 1,948MB (heap=683MB). Set lower Maximum Heap (-Xmx setting on JVM) and restart OrientDB. Now running with DISKCACHE=256MB
+2016-01-30 22:48:17,421+0530 INFO  [jetty-main-1] *SYSTEM com.bolyuba.nexus.plugin.npm.service.internal.orient.OrientMetadataStore - Opened database: com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx@213601dc
+2016-01-30 22:48:17,440+0530 INFO  [jetty-main-1] *SYSTEM com.bolyuba.nexus.plugin.npm.service.internal.orient.OrientMetadataStore - Created pool (maxSize=100): com.orientechnologies.orient.core.db.OPartitionedDatabasePool@77d1cfb3
+2016-01-30 22:48:18,382+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Loading Nexus Configuration...
+2016-01-30 22:48:18,487+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.source.StaticConfigurationSource - Configuration loaded successfully.
+2016-01-30 22:48:18,556+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.source.FileConfigurationSource - Configuration loaded successfully.
+2016-01-30 22:48:18,865+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.source.FileConfigurationSource - Nexus configuration validated successfully.
+2016-01-30 22:48:18,972+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration...
+2016-01-30 22:48:18,982+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.security.configuration.source.FileSecurityConfigurationSource - Loading Security configuration from D:\Softwares\nexus-2.11.2-06-bundle\nexus-2.11.2-06\..\sonatype-work\nexus\conf\security-configuration.xml
+2016-01-30 22:48:18,991+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'XmlAuthenticatingRealm.authorizationCache' does not yet exist.  Creating now.
+2016-01-30 22:48:19,013+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [XmlAuthenticatingRealm.authorizationCache]
+2016-01-30 22:48:19,015+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'XmlAuthorizingRealm.authorizationCache' does not yet exist.  Creating now.
+2016-01-30 22:48:19,018+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [XmlAuthorizingRealm.authorizationCache]
+2016-01-30 22:48:19,072+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.attributes.DefaultLSAttributeStorage - Default FS AttributeStorage in place, using JacksonJSON marshaller.
+2016-01-30 22:48:20,581+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central" [id=central][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2016-01-30 22:48:20,938+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Apache Snapshots" [id=apache-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2016-01-30 22:48:20,983+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 5 minutes.
+2016-01-30 22:48:20,993+0530 INFO  [proxy-3-thread-1] *SYSTEM org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing remote transport for proxy repository "Codehaus Snapshots" [id=codehaus-snapshots]...
+2016-01-30 22:48:21,127+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 40 seconds.
+2016-01-30 22:48:21,260+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Codehaus Snapshots" [id=codehaus-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2016-01-30 22:48:21,592+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Releases" [id=releases][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:48:21,844+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Snapshots" [id=snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:48:22,153+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "3rd party" [id=thirdparty][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:48:22,211+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository]
+2016-01-30 22:48:22,702+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "myrel" [id=myrel][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:48:22,869+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "myrels" [id=myrels][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2016-01-30 22:48:22,976+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Public Repositories" [id=public][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.repository.GroupRepository]
+2016-01-30 22:48:22,976+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.scheduling.DefaultScheduler - Initializing Scheduler...
+2016-01-30 22:48:22,981+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.scheduling.internal.DefaultTaskConfigManager - 0 task(s) to load.
+2016-01-30 22:48:22,981+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Nexus Work Directory : D:\Softwares\nexus-2.11.2-06-bundle\sonatype-work\nexus
+2016-01-30 22:48:22,981+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.NxApplication - Started Sonatype Nexus 2.11.2-06
+2016-01-30 22:48:24,061+0530 INFO  [jetty-main-1] *SYSTEM com.sonatype.nexus.plugins.nuget.odata.NugetODataGalleryMigrator - Starting Nuget DB migration.
+2016-01-30 22:48:24,088+0530 INFO  [jetty-main-1] *SYSTEM com.sonatype.nexus.plugins.nuget.odata.NugetODataGalleryMigrator - Completed Nuget DB migration.
+2016-01-30 22:48:24,732+0530 WARN  [ar-4-thread-3] *SYSTEM org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error on M2Repository(id=apache-snapshots): java.net.UnknownHostException: repository.apache.org
+2016-01-30 22:48:25,442+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.webapp.WebappBootstrap - Initialized
+2016-01-30 22:48:26,402+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule - Resources:
+2016-01-30 22:48:26,402+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/analytics/events
+2016-01-30 22:48:26,402+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/analytics/settings
+2016-01-30 22:48:26,403+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/security-diagnostic
+2016-01-30 22:48:26,403+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/support-zip
+2016-01-30 22:48:26,404+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/system-information
+2016-01-30 22:48:26,405+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities
+2016-01-30 22:48:26,405+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities/stores
+2016-01-30 22:48:26,405+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities/types
+2016-01-30 22:48:26,405+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/gaDetails
+2016-01-30 22:48:26,405+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/gavDetails
+2016-01-30 22:48:26,406+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckEula
+2016-01-30 22:48:26,406+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckInfo
+2016-01-30 22:48:26,406+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckStatus
+2016-01-30 22:48:26,407+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckSummary/{repositoryId}/{path:.*}
+2016-01-30 22:48:26,407+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/logging/log
+2016-01-30 22:48:26,407+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/logging/loggers
+2016-01-30 22:48:26,408+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/authenticate
+2016-01-30 22:48:26,408+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/download
+2016-01-30 22:48:26,408+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/settings
+2016-01-30 22:48:26,408+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule - Components:
+2016-01-30 22:48:26,409+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.capabilities.internal.rest.CapabilityNotFoundExceptionMapper
+2016-01-30 22:48:26,409+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.AuthorizationExceptionMapper
+2016-01-30 22:48:26,409+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.InvalidConfigurationExceptionMapper
+2016-01-30 22:48:26,410+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.NoSuchRepositoryExceptionMapper
+2016-01-30 22:48:26,410+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.jackson.JacksonProvider
+2016-01-30 22:48:26,418+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.BadRequestExceptionMapper
+2016-01-30 22:48:26,419+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ConstraintViolationExceptionMapper
+2016-01-30 22:48:26,436+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.InvalidObjectExceptionMapper
+2016-01-30 22:48:26,444+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ObjectNotFoundExceptionMapper
+2016-01-30 22:48:26,444+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ThrowableExceptionMapper
+2016-01-30 22:48:26,444+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ValidationErrorsExceptionMapper
+2016-01-30 22:48:26,444+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.WebApplicationExceptionMapper
+2016-01-30 22:48:26,444+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.WebApplicationMessageExceptionMapper
+2016-01-30 22:48:26,846+0530 WARN  [ar-4-thread-2] *SYSTEM org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error on M2Repository(id=central): java.net.UnknownHostException: repo1.maven.org
+2016-01-30 22:48:28,026+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rest.NexusApplication_UriMatching - Strict URI matching: true
+2016-01-30 22:48:28,450+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.ModelUtils - Loading model D:\Softwares\nexus-2.11.2-06-bundle\sonatype-work\nexus\conf\ldap.xml
+2016-01-30 22:48:28,577+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.configuration.ModelUtils - Loading model D:\Softwares\nexus-2.11.2-06-bundle\sonatype-work\nexus\conf\lvo-plugin.xml
+2016-01-30 22:48:29,962+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.webresources.internal.WebResourceServiceImpl - Discovered 1973 resources
+2016-01-30 22:48:29,970+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.webresources.internal.WebResourceServlet - Max-age: 30 days (2592000 seconds)
+2016-01-30 22:48:30,246+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.InstrumentedSelectChannelConnector - Metrics enabled
+2016-01-30 22:48:30,314+0530 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.AbstractConnector - Started InstrumentedSelectChannelConnector@0.0.0.0:8081
+2016-01-30 22:48:30,319+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Running
+2016-01-30 22:48:30,331+0530 INFO  [WrapperListener_start_runner] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Started
+2016-01-30 22:49:01,132+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 1 minute 20 seconds.
+2016-01-30 22:50:21,138+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 2 minutes.
+2016-01-30 22:52:21,138+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 3 minutes 20 seconds.
+2016-01-30 22:55:41,142+0530 INFO  [RepositoryStatusChecker-codehaus-snapshots] *SYSTEM org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 5 minutes 20 seconds.
+2016-01-30 22:58:19,910+0530 INFO  [Wrapper-Control-Event-Monitor] *SYSTEM org.sonatype.nexus.bootstrap.jsw.JswLauncher - Received control event: 201
